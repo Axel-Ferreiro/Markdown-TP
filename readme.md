@@ -1,5 +1,20 @@
 # _**Sistema de Incendio con Arduino.**_
 
+Este proyecto simula un **sistema de alerta de incendio** utilizando una placa **Arduino UNO**, sensores, LEDs, un servomotor y un **control remoto infrarrojo (IR)**. El sistema detecta la temperatura ambiental y actúa en consecuencia, mostrando información en un display LCD y activando una compuerta mediante un servomotor en caso de alerta.
+
+## 🧠 Lógica del sistema
+
+- Se definen rangos de temperatura para identificar la **estación del año**.
+- Se controla el sistema con un **control remoto IR**:  
+  Por ejemplo, al presionar el botón 1, se activa el modo "Verano".
+- Si la temperatura supera los **60°C**, el sistema interpreta que hay un **riesgo de incendio**:
+  - Se muestra el mensaje de alerta en el LCD.
+  - Se enciende un LED rojo.
+  - El servomotor actúa (por ejemplo, abre una compuerta o activa un mecanismo).
+- Si la temperatura está dentro del rango normal:
+  - Se enciende un LED verde.
+  - El sistema continúa funcionando normalmente.
+
 ## **Componentes necesarios:**
 *Arduino UNO
 
