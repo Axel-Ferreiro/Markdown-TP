@@ -2,7 +2,7 @@
 
 Este proyecto simula un **sistema de alerta de incendio** utilizando una placa **Arduino UNO**, sensores, LEDs, un servomotor y un **control remoto infrarrojo (IR)**. El sistema detecta la temperatura ambiental y actúa en consecuencia, mostrando información en un display LCD y activando una compuerta mediante un servomotor en caso de alerta.
 
-## 🧠 Lógica del sistema
+## Lógica del sistema
 
 - Se definen rangos de temperatura para identificar la **estación del año**.
 - Se controla el sistema con un **control remoto IR**:  
